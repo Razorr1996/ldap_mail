@@ -1,0 +1,16 @@
+dn: cn=config
+objectClass: olcGlobal
+cn: config
+olcPidFile: /var/run/slapd/slapd.pid
+
+dn: olcDatabase={0}config,cn=config
+objectClass: olcDatabaseConfig
+olcDatabase: {0}config
+olcRootPW: {SSHA}9b9JKCwnpLHHzMzkP33gbCWXs/eF6qBP
+
+dn: cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: schema
+
+include: file:///etc/ldap/schema/core.ldif
+

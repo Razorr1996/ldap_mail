@@ -1,0 +1,5 @@
+dn: dc=basa62,dc=ru
+objectClass: organization
+objectClass: dcObject
+dc: basa62
+o: Basa62 Test Company

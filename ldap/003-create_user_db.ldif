@@ -1,0 +1,8 @@
+dn: olcDatabase=mdb,cn=config
+objectClass: olcMdbConfig
+olcDatabase: mdb
+olcSuffix: dc=basa62,dc=ru
+olcDbDirectory: /var/lib/ldap/dc=basa62,dc=ru
+olcRootDN: cn=manager,ou=System,dc=basa62,dc=ru
+olcRootPW: {SSHA}LsWgUpZXPPZemA6KkLMIQMqMIpJAPNoR
+olcDbIndex: objectClass eq
