@@ -1,0 +1,23 @@
+dn: uid=artem,ou=People,dc=basa62,dc=ru
+objectClass: person
+objectClass: uidObject
+objectClass: inetOrgPerson
+uid: artem
+cn: Artem Basalaev
+sn: Basalaev
+mail: artem@basa62.ru
+userPassword: {SSHA}iO1rxM7rA/ZOJYmHM6qvR/8KxEawLBk0
+
+dn: uid=test,ou=People,dc=basa62,dc=ru
+objectClass: person
+objectClass: uidObject
+objectClass: inetOrgPerson
+uid: test
+cn: Test Mail
+sn: Mail
+mail: test@basa62.ru
+userPassword: {SSHA}w1nKRbp0ZtNeMl6FM6bC+PYy9wurfTf/
+
+dn: ou=Groups,dc=basa62,dc=ru
+objectClass: organizationalUnit
+ou: Groups

@@ -1,0 +1,3 @@
+dn: ou=People,dc=basa62,dc=ru
+objectClass: organizationalUnit
+ou: People
